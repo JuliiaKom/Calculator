@@ -60,7 +60,7 @@ result.addEventListener("click", () => {
                 result = operand1 / operand2;
                 break;
             case "%":
-                result = (operand1 / operand2) * 100;
+                result = (operand1 / 100) * operand2;
                 break;
             default:
                 result = "error"
